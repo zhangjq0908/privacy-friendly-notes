@@ -67,9 +67,9 @@ jobs:
 
       - name: Setup Gradle
         uses: gradle/gradle-build-action@v2
+    - name: Build with Gradle
+      run: ./gradlew assembleDebug
 
-      - name: Build debug APK
-        run: ./gradlew assembleDebug
     - uses: actions/upload-artifact@v3
       with:
         name: app-debug.apk
@@ -85,3 +85,11 @@ jobs:
         title: ${{ github.sha }}
         files: |
           app/build/outputs/apk/debug/app-debug.apk
+
+   
+
+          
+
+
+      
+
