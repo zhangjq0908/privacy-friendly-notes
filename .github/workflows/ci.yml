@@ -47,7 +47,7 @@ jobs:
   #        script: ./gradlew connectedAndroidTest --stacktrace
 
   apk:
-    apk:
+    
     name: Build APK
     runs-on: ubuntu-20.04
 
