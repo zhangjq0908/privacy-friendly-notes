@@ -1,9 +1,9 @@
 <resources>
     <string name="app_name">Notes</string>
     <string name="app_name_long">Privacy Friendly Notes</string>
-    <string name="default_category">デフォルト</string>
+    <string name="default_category">缺省值</string>
 
-    <string name="title_manage_categories">カテゴリー</string>
+    <string name="title_manage_categories">类别</string>
     <string name="title_textnote">テキスト メモ</string>
     <string name="title_checklistnote">チェックリスト メモ</string>
     <string name="title_audionote">オーディオ メモ</string>
